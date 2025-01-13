@@ -1,0 +1,51 @@
+@font-face {
+    font-family:Repro;
+    src: url(ABCRepro-Screen-Trial.woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Repro;
+}
+.project{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.leftpart{
+    width: 30%;
+    margin-left: 2%;
+    padding-right: 2%;
+}
+.projectname{
+    font-size: 1.6vw;
+}
+.tags{
+    display: flex;
+}
+.link{
+    color: black;
+}
+.tag1,.tag2{
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: gray;
+}
+.brief{
+    font-size: 1.1vw;
+}
+.work{
+    width: 70%;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+.workpiece{
+    width: 100%;
+}
+@media (max-width:800px){
+    .project{
+        display: block;
+    }
+}
